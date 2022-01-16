@@ -7,7 +7,7 @@ def header():
     print("See github.com/The1TrueJoe/Cisco-Config-Generator")
     print("....\n\n\n")
 
-def __main__():
+def main():
     # Print Header
     header()
 
@@ -80,3 +80,6 @@ def __main__():
         
 
     file.close()
+    
+if __name__ == "__main__":
+    main()
